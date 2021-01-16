@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <title>Medicare</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="header">
+        <figure class="logo-nav">
+          <img src="img/logo.png" alt="" />
+        </figure>
+        <p>Questions?</p>
+        <span class="blue">1-855-581-7786</span>
+      </header>
+      <section class="menu1">
+        <a href="">Plan Options</a>
+        <a href="">Learn About Mediacare</a>
+        <a href="">About Us</a>
+      </section>
+      <section class="hero">
+        <h1>I want to compare Medicare Supplement plans.</h1>
+        <figure class="hero-imagen">
+          <img src="img/hero.jpg" alt="" />
+        </figure>
+        <form action="">
+          <p>Enter ZIP code</p>
+          <input type="text" />
+          <button>Get my free quote -></button>
+          <p>Chat about my options with an agent:</p>
+        </form>
+      </section>
+      <section class="banners">
+        <h2>We work with the nation's most trusted insurance providers.</h2>
+        <figure class="banners-logos">
+          <img src="img/aetna.svg" alt="" />
+          <img src="img/mutual-of-omaha.svg" alt="" />
+          <img src="img/cigna.svg" alt="" />
+          <img src="img/humana.svg" alt="" />
+        </figure>
+      </section>
+      <section class="cv">
+        <h2>
+          Our committed agents work to understand your coverage needs and find
+          you the best Medicare plan.
+        </h2>
+        <div class="testimonio">
+          <img src="img/dale-2.jpg" alt="" />
+          <p>
+            "You have been such a delight to work with. I was completely
+            enveloped in a fog and uncertainty about what to do now that
+            Medicare has crept into my life and you made it crystal clear."
+          </p>
+        </div>
+        <div class="testimonio">
+          <img src="img/beverly-2.jpg" alt="" />
+          <p>
+            "You all are great and I am pleased with my choice. I tell everyone
+            about what a good company you are."
+          </p>
+        </div>
+
+        <div class="testimonio">
+          <img src="img/janet.jpg" alt="" />
+          <p>
+            "I have been on Medicare for 10 years and this article explained
+            supplemental better to me than anything I have read before. I
+            switched to Plan G and saved $100 a month immediately."
+          </p>
+        </div>
+      </section>
+      <section class="informacion">
+        <figure>
+          <img src="img/sr.png" alt="" />
+        </figure>
+        <h1>What is Medicare Supplement Insurance?</h1>
+        <p>
+          Medicare Supplement Insurance is a form of private health insurance
+          that helps cover certain Medicare out-of-pocket costs such as
+          deductibles, copayments and coinsurance. Over 14 million Americans had
+          a Medicare Supplement Insurance plan in 2018.1
+        </p>
+        <a href="" class="btn blue">Start online</a>
+      </section>
+      <section class="tables">
+        <h2>How does Medicare Supplement Insurance work?</h2>
+        <p>
+          It works alongside Original Medicare to help pay for out-of-pocket
+          costs, including copayments, coinsurance and deductibles.
+        </p>
+        <h3>Your 2021 Medicare Costs</h3>
+        <table class="table-content medicare-costs">
+          <tbody>
+            <tr>
+              <th></th>
+              <th>
+                <p><strong>Without</strong> Medicare Supplement</p>
+              </th>
+              <th>
+                <p><strong>With</strong> Medicare Supplement Plan G</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p>Medicare Part A Deductible</p>
+              </td>
+              <td>
+                <p><strong>$1,484</strong>&nbsp; per benefit period</p>
+              </td>
+              <td>
+                <p><sup>$</sup><span>0</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Medicare Part A Coinsurance for Inpatient Hospital Stay</p>
+              </td>
+              <td>
+                <p class="litle">Up to <strong>$742</strong>&nbsp;per day</p>
+              </td>
+              <td>
+                <p><sup>$</sup><span>0</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Medicare Part A Coinsurance for Skilled Nursing Facility Care
+                </p>
+              </td>
+              <td>
+                <p class="litle">Up to <strong>$185.50</strong>&nbsp;per day</p>
+              </td>
+              <td>
+                <p><sup>$</sup><span>0</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Medicare Part B Copayment</p>
+              </td>
+              <td>
+                <p>
+                  Typically&nbsp;<strong>20%</strong> of the Medicare-approved
+                  amount
+                </p>
+              </td>
+              <td>
+                <p><sup>$</sup><span>0</span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="cta">
+        <h2>
+          If you’re currently enrolled in Original Medicare, you can apply for a
+          Medicare Supplement Insurance plan at any time.
+        </h2>
+        <a href="" class="btn blue">Start Online</a>
+      </section>
+      <section class="factura">
+        <h2>Featured Content</h2>
+        <figure class="lentes">
+          <img src="img/lentes.jpg" alt="" />
+        </figure>
+        <div class="morado">
+          <span>Feactured</span>
+          <h4>Medicare Enrollment Dates & States Guide</h4>
+        </div>
+        <figure class="familia">
+          <span>Feactured</span>
+          <img src="img/familia.jpg" alt="" />
+        </figure>
+        <div class="morado">
+          <span>Feactured</span>
+          <h4>Women's Health Resources</h4>
+        </div>
+        <figure class="abuelos">
+          <img src="img/abuelos.jpg" alt="" />
+        </figure>
+        <div class="morado">
+          <span>Feactured</span>
+          <h4>Senior Health and Travel Safety Guide</h4>
+        </div>
+      </section>
+      <section class="questions">
+        <h2>Why should I use MedicareSupplement.com?</h2>
+        <p>
+          MedicareSupplement.com helps you learn about your Medicare coverage
+          options and find a plan, all at once. Our licensed agents can answer
+          your questions and help you find the right Medicare Supplement
+          Insurance plan to fit your needs and budget
+        </p>
+        <h2>Do I have to pay for your help?</h2>
+        <p>
+          No, we provide our services at no charge to you. We are happy to
+          answer your Medicare-related questions, help you compare your plan
+          options, and decide if Medicare Supplement insurance is right for you.
+        </p>
+        <h2>What if I don't know what plan I need?</h2>
+        <p>
+          Our US-based agents can help you assess what's important to you and
+          find an affordable plan that gives you peace of mind knowing you are
+          covered.
+        </p>
+        <h2>What if I already have a Medicare Supplement Insurance plan?</h2>
+        <p>
+          If you already have a Medicare Supplement insurance plan, but want to
+          change plans or lower your premiums, you are in the right place. You
+          can change your Medicare Supplement insurance plan any time of the
+          year. Simply call us at 1-844-229-0561 or fill out the form on this
+          page.
+        </p>
+      </section>
+      <section class="estrellas">
+        <h3>Excellent</h3>
+        <figure>
+          <img src="img/estrella.png" alt="" />
+        </figure>
+        <p>Based on 1,045 reviews</p>
+      </section>
+    </div>
+    <section class="formulario">
+      <h1>
+        We just need a few details to provide your personalized Medicare
+        Supplement plan comparison.
+      </h1>
+      <form action="">
+        <label for="">Full name</label>
+        <input type="text" />
+        <label for="">Sex</label>
+        <input type="radio" /> <span>Female</span><input type="radio" /><span
+          >Male</span
+        >
+        <label for="">Date of birth</label>
+        <label for="">MM/DD/YYYY</label>
+        <input type="text" />
+        <label for="">Street address</label>
+        <input type="text" name="" id="" />
+        <label for="">ZIP code</label>
+        <input type="text" />
+        <label for="">Primary phone number</label>
+        <input type="text" />
+        <label for="">Email address</label>
+        <input type="text" />
+        <button>Compra Plans -></button>
+      </form>
+      <p>
+        By pressing "Compare plans" above, I consent to receive e-mails,
+        telephone calls, text messages and artificial or pre-recorded messages
+        from TZ Insurance Solutions LLC or its affiliates and third party
+        partners, or their service provider partners on their behalf, regarding
+        their products and services, including Medicare Supplement Insurance
+        plans, Medicare Advantage plans, and/or Prescription Drug Plans, at the
+        e-mail address and telephone number provided above, including my
+        wireless number(if provided) using an automated telephone dialing
+        system. I understand that my wireless carrier's standard message and
+        data rates apply. I understand I can make a purchase or speak to a
+        licensed insurance agent without granting this consent, and I may revoke
+        this consent at any time. I instead may call 1-855-407-6268 to speak to
+        a licensed insurance agent. I agree to this website’s Privacy Policy and
+        Terms of Use
+      </p>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.hoja-vida {
+  margin-bottom: 50px;
+}
+
+.hoja-vida h2 {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #303030;
+  font-weight: 500;
+}
+.hoja-vida .titulo_cv {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  color: #303030;
+  margin: 0 100px;
+}
+
+.cv {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 100px;
+}
+
+.cv .inner {
+  margin: 20px auto;
+  max-width: 310px;
+  border: 1px solid #979797;
+}
+
+.cv .inner img {
+  border-radius: 50%;
+  margin: 40px 0px 0px 0px;
+}
+
+.cv .inner p {
+  color: #3b2760;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  padding: 20px 20px 5px 20px;
+}
+
+.janet img {
+  width: 180px;
+}

@@ -1,0 +1,53 @@
+.tableta {
+  display: flex;
+  justify-content: center;
+}
+
+.tabla {
+  border: 1px solid #979797;
+  text-align: center;
+  color: #5d5d5d;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.tabla,
+tbody,
+td,
+tr {
+  border: 1px solid #979797;
+}
+
+tr th {
+  background-color: #3b2760;
+  color: #fff;
+  font-weight: 400;
+  padding: 25px 11px;
+  max-width: 145px;
+  text-align: center;
+  vertical-align: top;
+  min-width: 154px;
+}
+td {
+  font-weight: 600;
+  width: 300px;
+  padding: 20px 30px;
+}
+
+span {
+  color: #3b2760;
+  font-weight: bold;
+  font-size: 74px;
+}
+p {
+  position: relative;
+}
+sup {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  font-size: 18px;
+  color: #3b2760;
+  line-height: 24px;
+  font-weight: bold;
+}

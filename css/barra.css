@@ -1,0 +1,11 @@
+.barra {
+  background-color: #775bac;
+  width: 80%;
+  transform: skew(-35deg);
+}
+
+.barra .barra_contenedor p {
+  text-align: right;
+  padding: 20px 150px 20px 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}

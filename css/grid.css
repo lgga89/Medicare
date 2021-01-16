@@ -1,0 +1,68 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /*grid-template-rows: repeat(11, auto);*/
+  grid-template-areas:
+    "header header header header header header header header "
+    "menu1 menu1 menu1 menu1 menu1 menu1 menu1 menu1 "
+    "hero hero hero hero hero hero hero hero"
+    "marcas marcas marcas marcas marcas marcas marcas marcas"
+    "hoja-vida hoja-vida hoja-vida hoja-vida hoja-vida hoja-vida hoja-vida hoja-vida"
+    "seguro seguro seguro seguro seguro seguro seguro seguro"
+    ". tabla_texto   tabla_texto  tabla_texto  tabla_texto  tabla_texto  tabla_texto   . "
+    ". tableta tableta tableta tableta tableta tableta ."
+    "plan_seguro plan_seguro plan_seguro plan_seguro plan_seguro plan_seguro plan_seguro plan_seguro"
+    "factura factura factura factura factura factura factura factura "
+    ". top1 top1 top1 top1 top1 top1 . "
+    "formulario formulario formulario formulario formulario formulario formulario formulario"
+    " . recursos  recursos  recursos  recursos  recursos  recursos  . "
+    " formulario_dos formulario_dos formulario_dos formulario_dos formulario_dos formulario_dos formulario_dos formulario_dos "
+    "barra barra barra barra barra barra barra barra";
+}
+
+.header {
+  grid-area: header;
+}
+.menu1 {
+  grid-area: menu1;
+}
+.hero {
+  grid-area: hero;
+}
+.marcas {
+  grid-area: marcas;
+}
+.hoja-vida {
+  grid-area: hoja-vida;
+}
+.seguro {
+  grid-area: seguro;
+}
+.tabla_texto {
+  grid-area: tabla_texto;
+}
+.tableta {
+  grid-area: tableta;
+}
+.plan_seguro {
+  grid-area: plan_seguro;
+}
+.factura {
+  grid-area: factura;
+}
+.top1 {
+  grid-area: top1;
+}
+.formulario {
+  grid-area: formulario;
+}
+.recursos {
+  grid-area: recursos;
+}
+.formulario_dos {
+  grid-area: formulario_dos;
+}
+
+.barra {
+  grid-area: barra;
+}

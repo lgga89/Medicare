@@ -1,0 +1,29 @@
+.marcas {
+  text-align: center;
+}
+
+.marcas h1 {
+  font-size: 28px;
+  color: #303030;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.marcas .marcas-logos {
+  height: 23px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marcas .marcas-logos img {
+  height: 23px;
+  margin: 0px 30px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.marcas .marcas-logos .logos {
+  height: 40px;
+}

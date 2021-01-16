@@ -1,0 +1,52 @@
+.factura {
+  margin-bottom: 90px;
+  margin-top: 80px;
+  display: grid;
+}
+
+.factura h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #303030;
+  font-size: 35px;
+}
+
+.factura_contenedor {
+  display: flex;
+  justify-content: center;
+}
+.factura-inner {
+  margin: 20px;
+  height: 300px;
+  width: 23%;
+  background: url("../img/lentes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.factura_opa {
+  padding: 80px 30px;
+
+  opacity: 0.85;
+  background-color: #3b2760;
+  width: 80%;
+  height: 100%;
+}
+
+.factura-inner span {
+  background: white;
+  color: #3b2760;
+  font-size: 14px;
+  padding: 5px 30px;
+}
+.factura-inner h4 {
+  background: white;
+  text-align: left;
+  color: white;
+  font-size: 21px;
+  padding: 5px 0;
+  opacity: 0.85;
+  background-color: #3b2760;
+}

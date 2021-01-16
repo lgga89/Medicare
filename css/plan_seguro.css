@@ -1,0 +1,18 @@
+.plan_seguro .plan_contenedor h1 {
+  color: #303030;
+  margin: 50px 0;
+  font-size: 27px;
+}
+
+.plan_contenedor {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.plan_contenedor .button {
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #2aabf7;
+  color: white;
+  cursor: pointer;
+}

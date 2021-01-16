@@ -1,0 +1,77 @@
+.recursos {
+  height: 200%;
+}
+
+.recursos h2 {
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 20px;
+  font-size: 30px;
+}
+li h4 {
+  color: #3b2760;
+  white-space: pre-wrap;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.slider li p {
+  color: #5d5d5d;
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+li a {
+  display: inline-block;
+
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none inside;
+}
+.slider {
+  position: relative; /*Necesitamos que el ul sea relativo*/
+}
+.slider li {
+  opacity: 0; /*Ocultamos todos los <li>*/
+  transition: opacity 0.5s;
+  position: absolute; /*Posicionamos en absoluto los <li>*/
+  left: 0px;
+  top: 0px;
+  margin: 20px;
+  padding: 10px;
+  background: white;
+  height: 120px;
+}
+.slider li:first-child {
+  opacity: 1; /*Mostramos el primer <li>*/
+}
+.slider li:target {
+  opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+nav .recursos_contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.recursos_contenedor a {
+  margin: 5px;
+  font-size: 60px;
+  text-decoration: none;
+}
+a:hover {
+  color: #aaaaaa;
+}

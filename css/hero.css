@@ -1,0 +1,100 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  background: red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-contenedor {
+  position: absolute;
+}
+.hero h1 {
+  color: white;
+  font-size: 37px;
+  line-height: 42px;
+  margin: 0 auto 25px;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+}
+.hero p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+.hero-imagen {
+  width: 100%;
+  height: 410px;
+}
+
+.hero:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #3b2760;
+  position: absolute;
+  opacity: 0.7;
+}
+.hero .form-med input {
+  border: 1px solid #a0a0a0;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+  color: #303030;
+  font-size: 16px;
+  height: 60px;
+  width: 30%;
+  transition: all 0.3s ease;
+  margin: 5px 0px;
+}
+.hero .form-med button {
+  border: 1px solid #a0a0a0;
+  color: #303030;
+  font-size: 16px;
+  background-color: #2aabf7;
+  height: 60px;
+  width: 50%;
+  margin: 0 10px;
+  padding: 15px 30px;
+  transition: all 0.3s ease;
+  font-family: "Open Sans Semibold", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.hero .form-med {
+  text-align: center;
+}
+.hero span {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  margin-left: 34px;
+}
+.hero a {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.hero p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  color: white;
+}
